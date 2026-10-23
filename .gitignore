@@ -1,0 +1,68 @@
+# ==========================================
+# Especificações e Documentos do Cliente (Confidenciais)
+# ==========================================
+*.pdf
+*.PDF
+
+# ==========================================
+# Dependências e Pacotes
+# ==========================================
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ==========================================
+# Expo, Metro e Saídas de Build
+# ==========================================
+.expo/
+**/.expo/
+dist/
+**/dist/
+web-build/
+**/web-build/
+
+# ==========================================
+# Arquivos de Ambiente e Credenciais
+# ==========================================
+.env
+.env*.local
+**/.env
+**/.env*.local
+credentials.json
+google-services.json
+GoogleService-Info.plist
+**/google-services.json
+**/GoogleService-Info.plist
+
+# ==========================================
+# Chaves Criptográficas e Assinaturas
+# ==========================================
+*.jks
+*.p8
+*.p12
+*.key
+*.keystore
+*.mobileprovision
+
+# ==========================================
+# Logs e Temporários
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.system_generated/
+**/.system_generated/
+scratch/
+**/scratch/
+
+# ==========================================
+# Sistema Operacional e Editores
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
